@@ -11,7 +11,7 @@ import About from './pages/About';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/TravelWebsite">
       <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
