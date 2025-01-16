@@ -12,7 +12,7 @@ const Navbar = () => {
                 <Link to="/gallery" className="px-6 py-2 hover:bg-slate-500 hover:text-white hover:rounded-lg">Gallery</Link>
                 <Link to="/contact" className="px-6 py-2 hover:bg-slate-500 hover:text-white hover:rounded-lg">Contact</Link>
                 <Link to="/about" className="px-6 py-2 hover:bg-slate-500 hover:text-white hover:rounded-lg">About</Link>
-                <button className='py-2 px-6 border bg-slate-500'>Login</button>
+                <button className='py-2 px-6 border bg-slate-500 hover:bg-transparent hover:outline-white hover:rounded-lg'>Login</button>
             </div>
             <div className='md:hidden'>
                <button onClick={() =>setIsOpen(!isOpen)}>
