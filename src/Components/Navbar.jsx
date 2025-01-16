@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     const [isOpen,setIsOpen] = useState(false);
   return (
-    <nav className='fixed m-4 top-0 right-0 left-0 shadow-lg text-white rounded-3xl z-50 bg-opacity-50 bg-black'>
+    <nav className='fixed m-4 top-0 right-0 left-0 shadow-lg text-white rounded-3xl z-50 bg-opacity-95 bg-black'>
         <div className='container px-4 flex justify-between items-center h-16'>
             <h3 className='text-2xl font-bold'>TrailBliss India.</h3>
             <div className='hidden md:flex space-x-4 text-sm font-semibold items-center'>
