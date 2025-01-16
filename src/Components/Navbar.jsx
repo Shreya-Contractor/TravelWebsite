@@ -21,7 +21,7 @@ const Navbar = () => {
             </div>
         </div>
         {isOpen && (
-             <div className='md:hidden flex  space-y-6 py-4  flex-col bg-slate bg-opacity-25 items-center'>
+             <div className='md:hidden flex  space-y-6 py-4  flex-col bg-slate bg-opacity-75 items-center'>
              <Link to='/' className="px-6 py-2 hover:bg-slate-950 hover:text-white hover:rounded-lg">Home</Link>
              <Link to="/gallery" className="px-6 py-2 hover:bg-slate-950 hover:text-white hover:rounded-lg">Gallery</Link>
              <Link to="/contact" className="px-6 py-2 hover:bg-slate-950 hover:text-white hover:rounded-lg">Contact</Link>
