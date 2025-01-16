@@ -22,10 +22,10 @@ const Navbar = () => {
         </div>
         {isOpen && (
              <div className='md:hidden flex  space-y-6 py-4  flex-col bg-slate bg-opacity-95 items-center'>
-             <Link to='/' className="px-6 py-2 hover:bg-slate-950 hover:text-white hover:rounded-lg">Home</Link>
-             <Link to="/gallery" className="px-6 py-2 hover:bg-slate-950 hover:text-white hover:rounded-lg">Gallery</Link>
-             <Link to="/contact" className="px-6 py-2 hover:bg-slate-950 hover:text-white hover:rounded-lg">Contact</Link>
-             <Link to="/about" className="px-6 py-2 hover:bg-slate-950 hover:text-white hover:rounded-lg">About</Link>
+             <Link to='/' className="px-6 py-2 hover:bg-slate-500 hover:text-white hover:rounded-lg">Home</Link>
+             <Link to="/gallery" className="px-6 py-2 hover:bg-slate-500 hover:text-white hover:rounded-lg">Gallery</Link>
+             <Link to="/contact" className="px-6 py-2 hover:bg-slate-500 hover:text-white hover:rounded-lg">Contact</Link>
+             <Link to="/about" className="px-6 py-2 hover:bg-slate-500 hover:text-white hover:rounded-lg">About</Link>
              <button className='py-2 px-6 border bg-slate-950 hover:bg-transparent hover:outline-white hover:rounded-lg'>Login</button>
          </div>
         )}
